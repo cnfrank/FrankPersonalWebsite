@@ -9,8 +9,10 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Views\Profile\" />
+    <None Remove="Views\Contact\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
+    <Folder Include="Views\Contact\" />
   </ItemGroup>
 </Project>
